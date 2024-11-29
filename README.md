@@ -4,6 +4,8 @@ Handy Docker script
 ## Usage
 To use the script, simply provide the name or ID of the Docker image you want to run, along with any additional options or arguments:
 
+Also list docker images.
+
 ./docker-run.sh my_image_name [options] [command]
 
 The script will automatically add the -it flag to run the container in interactive mode, and will also set the container's name to docker_run_{image_name}_{timestamp} to make it easier to identify.
